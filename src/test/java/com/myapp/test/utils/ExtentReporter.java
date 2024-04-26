@@ -14,8 +14,6 @@ public class ExtentReporter {
         reporter.config().setDocumentTitle("App Test Results");
         extentReports = new ExtentReports();
         extentReports.attachReporter(reporter);
-        extentReports.setSystemInfo("Device Name: ", "");
-        extentReports.setSystemInfo("OS Version: ", "");
         return extentReports;
     }
 }
